@@ -1,3 +1,12 @@
-name = input('Enter your name ')
-if 5 > 1:
-    print('ok')
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+numbers = len(my_list)
+i = 0
+while i < numbers:
+    if my_list [i] == 0:
+        i = i + 1
+        continue
+    elif my_list [i] > 0:
+        print(my_list[i])
+        i = i + 1
+    elif my_list [i] < 0:
+        break
