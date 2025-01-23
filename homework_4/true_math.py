@@ -7,4 +7,3 @@ def true_divide(first, second):
         result = first / second
         return result
 
-    
